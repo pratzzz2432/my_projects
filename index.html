@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SheCodes Portfolio</title>
-
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
-      crossorigin="anonymous"
+    <meta
+      name="description"
+      content="Patricia is a front-end engineer based in Portugal."
     />
+    <title>Front-end developer - Pratiksha</title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
@@ -19,74 +19,159 @@
     />
     <link rel="stylesheet" href="styles/portfolio.css" />
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-      crossorigin="anonymous"
-    ></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <script
       src="https://kit.fontawesome.com/ddc3ee268a.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">         
+        <ul>
+          <li class="active">
+            <a href="/" title="Homepage"> Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Pratiksha"> About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Pratiksha's work"> Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Pratiksha"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="hero">
-      <p>👋 Hello, I am</p>
+      <p>👋 Hello, I'm</p>
       <h1>Pratiksha</h1>
-      <h2 class="mb-5">Front-end developer based in INDIA</h2>
+      <h2 class="mb-5">Front-end developer based in India</h2>
       <div>
-        <a href="#" class="btn btn-branding">Contact me</a>
+        <a href="/contact.html" class="btn btn-branding" title="Contact me"
+          >Contact me</a
+        >
       </div>
     </div>
     <p class="text-center m-5">
-      Featured Project which my best projects be choice to show
+      Check out some of my featured projects below
+
     </p>
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="images/yogurt.png" class="img-fluid" alt="" />
+          <img
+            src="images/yogurt.png"
+            class="img-fluid"
+            alt="Yogurt project preview"
+          />
         </div>
         <div class="col">
           <div class="project-desciption">
-            <h2 class="mb-5">Yogurt Project</h2>
+            <h2 class="mb-5">Yogurt Landing Page </h2>
             <p class="mb-5 text-muted">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean. A small river named Duden flows by
+              I entered the world of front-end development by gaining some knowledge in HTML, CSS, and JavaScript. I used my knowledge of these languages, along with my new skills in VS Code, to build a landing page about Yogurt. The page utilizes JavaScript functions to create user interaction. 
             </p>
-            <a href="" class="btn btn-branding-outline"> Learn more </a>
+            <a href="/work.html" class="btn btn-branding-outline">
+              Learn more
+            </a>
           </div>
         </div>
       </div>
       <div class="row mb-5">
         <div class="col">
           <div class="project-desciption">
-            <h2 class="mb-5">temperater converter App</h2>
+            <h2 class="mb-5">Weather App</h2>
             <p class="mb-5 text-muted">
-                A temperature converter app is a mobile application designed to convert temperatures between different units of measurement, such as Celsius, Fahrenheit, and Kelvin. Users can input a temperature in one unit, and the app will quickly provide the equivalent temperature in the desired unit. These apps are useful for people who need to work with temperature data in various formats, such as travelers, scientists, and engineers.
+              I built a Vanilla JavaScript weather app in SheCodes Plus, an advanced 8-week JavaScript coding workshop. Building upon my previously-gained knowledge, I also became skilled in Bootstrap, API’s, real-life development workflow, hosting, and advanced JavaScript. I combined all of these skills to create a fully-functioning weather app. 
             </p>
-            <a href="" class="btn btn-branding-outline"> Learn more </a>
+            <a href="/work.html" class="btn btn-branding-outline">
+              Learn more
+            </a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="images/temp.png" class="img-fluid" alt="" />
+          <img
+            src="images/weather.png"
+            class="img-fluid"
+            alt="Weather project preview"
+          />
         </div>
       </div>
       <div class="row">
         <div class="col d-none d-lg-block">
-          <img src="images/weather.png" class="img-fluid" alt="" />
+          <img
+            src="images/temp.png"
+            class="img-fluid"
+            alt="Dictionary app preview"
+          />
         </div>
         <div class="col">
           <div class="project-desciption">
-            <h2 class="mb-5">Weather App</h2>
+            <h2 class="mb-5">Temperature converterApp</h2>
             <p class="mb-5 text-muted">
-               The application that provides real-time and forecasted weather information for a specific location. It typically offers details such as temperature, humidity, wind speed and direction, precipitation forecasts, and severe weather alerts. Users can access this information to plan their activities and make informed decisions based on current and future weather conditions. Many weather apps also include additional features like radar maps, sunrise/sunset times, and customizable location settings for tracking weather in multiple places.
+              I immersed myself in React development in SheCodes React. I used my knowledge of this highly-demanded framework to build a working dictionary app incorporating coding best practices, along with the most popular tools and technologies.
             </p>
-            <a href="" class="btn btn-branding-outline"> Learn more </a>
+            <a href="/work.html" class="btn btn-branding-outline">
+              Learn more
+            </a>
           </div>
         </div>
       </div>
+      <footer>
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Patricia"
+            >
+              Contact me
+            </a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:pratzzz2432@gmail.com"
+            class="email-link"
+            title="Email Patricia"
+          >
+            pratzzzzzz@gmail.com
+          </a>
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://github.com/pratzzz2432"
+            target="_blank"
+            title="GitHub Profile"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/pratiksha-517977257/"
+            target="_blank"
+            title="instragram Profile"
+          >LINKEDIN
+            <i class="fab fa-instagram"></i>
+          </a>
+          
+        </div>
+        <p class="text-center mt-5">
+          ✌️ This website was coded by Pratiksha, and is
+          <a
+            href="https://github.com/pratzzz2432/my_projects"
+            target="_blank"
+          >
+            open-sourced
+          </a>
+        </p>
+      </footer>
     </div>
   </body>
 </html>
